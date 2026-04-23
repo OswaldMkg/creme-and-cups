@@ -101,11 +101,14 @@ a { color: var(--pink); text-decoration: none; }
 }
 
 .hero-logo {
-  width: 160px;
-  height: auto;
+  width: 140px;
+  height: 140px;
   object-fit: contain;
   margin-bottom: 2rem;
-  filter: drop-shadow(0 2px 20px rgba(212,23,90,0.45)) drop-shadow(0 1px 8px rgba(0,0,0,0.6));
+  background: #fff;
+  border-radius: 50%;
+  padding: 12px;
+  box-shadow: 0 4px 24px rgba(212,23,90,0.25), 0 1px 8px rgba(0,0,0,0.4);
 }
 
 .hero-eyebrow {
@@ -581,12 +584,15 @@ a { color: var(--pink); text-decoration: none; }
 }
 
 .footer-logo {
-  height: 80px;
-  width: auto;
+  width: 90px;
+  height: 90px;
   object-fit: contain;
   margin: 0 auto 0.8rem;
   display: block;
-  filter: drop-shadow(0 1px 12px rgba(255,255,255,0.2)) drop-shadow(0 0 6px rgba(42,181,232,0.3));
+  background: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 16px rgba(212,23,90,0.2);
 }
 
 .footer-slogan {
@@ -631,7 +637,7 @@ a { color: var(--pink); text-decoration: none; }
 
   .hero-image::after { display: none; }
 
-  .hero-logo { width: 90px; height: 90px; }
+  .hero-logo { width: 100px; height: 100px; padding: 10px; }
 
   .product-showcase,
   .individual-grid,
